@@ -24,7 +24,7 @@ let notes = [
 
 //GET HTTP
 app.get("/", (request, response) => {
-  response.send("<h1>Hello, Nodemon!</h1>");
+  response.send("<h1>Hello, Express!</h1>");
 });
 
 app.get("/api/notes", (request, response) => {
